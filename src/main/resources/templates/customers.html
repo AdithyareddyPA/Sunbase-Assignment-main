@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Customers</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h2>Customer List</h2>
+    <button id="syncBtn">Sync</button>
+    <table id="customerTable">
+        <thead>
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Street</th>
+                <th>Address</th>
+                <th>City</th>
+                <th>State</th>
+                <th>Email</th>
+                <th>Phone</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+    <button id="addCustomerBtn">Add Customer</button>
+    <div id="customerForm" style="display:none;">
+        <h2>Customer Details</h2>
+        <form id="customerDetailsForm">
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName" required>
+            <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName" required>
+            <label for="street">Street:</label>
+            <input type="text" id="street" required>
+            <label for="address">Address:</label>
+            <input type="text" id="address" required>
+            <label for="city">City:</label>
+            <input type="text" id="city" required>
+            <label for="state">State:</label>
+            <input type="text" id="state" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+            <label for="phone">Phone:</label>
+            <input type="text" id="phone" required>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
