@@ -1,4 +1,4 @@
-# Sunbase Assignment Project
+# Event Management Project
 
 ## Overview
 
